@@ -44,7 +44,8 @@ while counter < coupons.length
       item_in_cart[:count] -= coupons[counter][:num]
     else 
       cart_item_with_coup = {
-        :item => coup_name
+        :item => coup_name,
+        
       }
     end
   end
