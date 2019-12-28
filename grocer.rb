@@ -45,7 +45,7 @@ while counter < coupons.length
     else 
       cart_item_with_coup = {
         :item => coup_name,
-        :price => coupons[counter][:cost] / 
+        :price => coupons[counter][:cost] / coupons[]
       }
     end
   end
