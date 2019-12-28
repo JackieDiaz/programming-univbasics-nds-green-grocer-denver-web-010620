@@ -19,7 +19,9 @@ fresh_cart_item = find_item_by_name_in_collection(cart[counter][:item], fresh_ca
 if fresh_cart_item != nil
   fresh_cart_item[:count] + 1
 else 
-  fresh_cart_item = 
+  fresh_cart_item = {
+    
+  }
 counter += 1
 end
   
