@@ -13,7 +13,8 @@ end
 
 def consolidate_cart(cart)
   fresh_cart = []
-  
+  counter = 0
+while counter > collection.length  
   
   # Consult README for inputs and outputs
   #
