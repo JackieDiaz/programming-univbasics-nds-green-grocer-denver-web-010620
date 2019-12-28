@@ -39,6 +39,7 @@ while counter < coupons.length
   coup_name = "#{coupons[counter][:item]} W/COUPON"
   cart_item_with_coup = find_item_by_name_in_collection(coup_name, name)
   if item_in_cart && item_in_cart[:count] >= coupons[counter][:num]
+    if coup_name
   
   counter += 1
 end
