@@ -21,7 +21,7 @@ if fresh_cart_item != nil
 else 
   fresh_cart_item = {
     :item => cart[counter][:item],
-    :price => cart[counter]
+    :price => cart[counter][:price]
   }
 counter += 1
 end
