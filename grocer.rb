@@ -27,11 +27,11 @@ else
   }
   fresh_cart << fresh_cart_item 
   
+end
 counter += 1
 end
   fresh_cart
 end
-
 
 def apply_coupons(cart, coupons)
   counter = 0
