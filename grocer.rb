@@ -25,6 +25,8 @@ else
     :clearance => cart[counter][:clearance]
     counter => 1
   }
+  fresh_cart << fresh_cart_item 
+  
 counter += 1
 end
   
