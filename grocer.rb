@@ -50,7 +50,7 @@ while counter < coupons.length
         :clearance => item_in_cart[:clearance]
       }
       cart << cart_item_with_coup
-      item_in_cart -= coupons
+      item_in_cart -= coupons[counter]
     end
   end
   
