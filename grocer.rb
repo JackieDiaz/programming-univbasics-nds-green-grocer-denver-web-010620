@@ -23,7 +23,7 @@ else
     :item => cart[counter][:item],
     :price => cart[counter][:price],
     :clearance => cart[counter][:clearance]
-    counter => 1
+    :count => 1
   }
   fresh_cart << fresh_cart_item 
   
