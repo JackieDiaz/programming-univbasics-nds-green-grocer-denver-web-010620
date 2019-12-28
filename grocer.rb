@@ -42,6 +42,7 @@ while counter < coupons.length
     if cart_item_with_coup
       cart_item_with_coup[:count] += coupons[counter][:num]
       item_in_cart[:count] -= coupons[counter][:num]
+    else 
       
     end
   end
