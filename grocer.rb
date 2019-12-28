@@ -40,7 +40,7 @@ while counter < coupons.length
   cart_item_with_coup = find_item_by_name_in_collection(coup_name, name)
   if item_in_cart && item_in_cart[:count] >= coupons[counter][:num]
     if cart_item_with_coup
-      cart_item_with_coup
+      cart_item_with_coup[:count] += coupons[counter]
     end
   end
   
