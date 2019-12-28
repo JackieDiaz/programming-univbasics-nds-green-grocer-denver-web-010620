@@ -47,7 +47,7 @@ while counter < coupons.length
         :item => coup_name,
         :price => coupons[counter][:cost] / coupons[counter][:num],
         :count => coupons[counter][:num],
-        
+        :clearance => 
       }
     end
   end
