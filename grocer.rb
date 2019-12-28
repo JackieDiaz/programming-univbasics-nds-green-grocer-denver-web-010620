@@ -73,6 +73,16 @@ end
 def checkout(cart, coupons)
  consolidated_cart = consolidate_cart(cart)
  last_cart = apply_coupons(consolidated_cart)
-total = 0
+ total = 0
 
+counter = 0 
+while counter < last_cart.length
+total += last_cart[counter][:price] * last_cart[counter][:count]
+counter += 1 
+ end
+ if total > 100 
+   total -= (total * 0.1)
+ end
+ total
 end
+
