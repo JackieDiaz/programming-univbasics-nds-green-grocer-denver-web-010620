@@ -22,7 +22,7 @@ else
   fresh_cart_item = {
     :item => cart[counter][:item],
     :price => cart[counter][:price],
-    :clearance 
+    :clearance => 
   }
 counter += 1
 end
