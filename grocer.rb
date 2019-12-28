@@ -23,6 +23,7 @@ else
     :item => cart[counter][:item],
     :price => cart[counter][:price],
     :clearance => cart[counter][:clearance]
+    counter => 1
   }
 counter += 1
 end
